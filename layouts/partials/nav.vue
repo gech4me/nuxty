@@ -19,7 +19,7 @@
   }
 </script>
 
-<style scoped>
+<style>
   header {
     background: rgb(0, 219, 146);
     display: grid;
