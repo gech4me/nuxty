@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Navigation />
     <Nuxt />
   </div>
 </template>
@@ -62,8 +62,8 @@ html {
 }
 </style>
 <script>
-  import Nav from "./partials/nav";
+  import Navigation from "./partials/navigation";
   export default {
-    components: {Nav}
+    components: {Navigation}
   }
 </script>
