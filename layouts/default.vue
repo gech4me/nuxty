@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Nav />
     <Nuxt />
   </div>
 </template>
@@ -60,3 +61,9 @@ html {
   background-color: #35495e;
 }
 </style>
+<script>
+  import Nav from "./partials/nav";
+  export default {
+    components: {Nav}
+  }
+</script>
