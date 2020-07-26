@@ -7,7 +7,17 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'NUXT Home',
+      meta: [
+        { name: 'description', content: 'This is my home description here.'},
+        { name: 'keywords', content: 'nuxt home, nuxt info'},
+      ]
+    }
+  }
+}
 </script>
 
 <style>
